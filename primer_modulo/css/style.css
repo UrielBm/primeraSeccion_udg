@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+.form {
+  width: 100vw;
+  padding: 0 1rem;
+  font-family: "Roboto Mono", monospace;
+}
+.form .wrapperRow {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+}
+.form .wrapperRow div:first-child {
+  padding-right: 1rem;
+}
+.wrapperRow .wrapperinput {
+  width: 50%;
+  font-weight: 400;
+}
+.wrapperRow .wrapperinput label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.wrapperRow .wrapperinput input {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.3rem;
+}
+.form .wrapperinputAdress {
+  width: 100%;
+
+  margin: 1rem 0;
+}
+.form .wrapperinputAdress .label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.form .wrapperinputAdress #address {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.3rem;
+}
+.form .wrapperinputAdress #addresstwo {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.3rem;
+}
+.form .wrapperRow .wrappercity {
+  width: 45%;
+}
+.form .wrapperRow .wrappercity label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.form .wrapperRow .wrappercity input {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.3rem;
+}
+.form .wrapperRow .wrapperState {
+  width: 45%;
+  padding-right: 1rem;
+}
+.form .wrapperRow .wrapperState label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.form .wrapperRow .wrapperState label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.form .wrapperRow .wrapperState select {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.3rem;
+}
+.form .wrapperzip {
+  width: 10%;
+}
+.form .wrapperzip label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.form .wrapperzip input {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.3rem;
+}
+.form .wrapperBox {
+  width: 100%;
+
+  margin-bottom: 1rem;
+}
+.form .wrapperBox label {
+  margin-left: 0.5rem;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+}
+.form .wrapperButton {
+  width: 100%;
+}
+.wrapperButton button {
+  width: 80px;
+  padding: 0.3rem;
+  background-color: rgb(84, 166, 199);
+  border: none;
+  border-radius: 0.2rem;
+  color: #ffff;
+  font-weight: 300;
+}
+.wrapperButton button:hover {
+  cursor: pointer;
+  width: 120px;
+  padding: 0.3rem;
+  background-color: rgb(37, 98, 122);
+  transition: width ease-in-out 0.6s, background-color ease-in-out 0.6s;
+}
+
+@media only screen and (max-width: 600px) {
+  .form .wrapperRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .wrapperRow .wrapperinput {
+    width: 100%;
+  }
+  .form .wrapperRow div:first-child {
+    margin-bottom: 1rem;
+    padding-right: 0;
+  }
+  .form .wrapperRow .wrappercity {
+    width: 100%;
+  }
+  .form .wrapperRow .wrapperState {
+    width: 50%;
+  }
+  .form .wrapperzip {
+    width: 50%;
+  }
+  .wrapperButton {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapperButton button {
+    width: 50%;
+  }
+  .wrapperButton button:hover {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.3rem;
+    background-color: rgb(37, 98, 122);
+    transition: width ease-in-out 0.6s, background-color ease-in-out 0.6s;
+  }
+}
